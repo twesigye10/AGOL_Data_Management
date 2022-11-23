@@ -1,0 +1,7 @@
+.idea
+venv
+*.html
+inputs/*
+outputs/*
+support_files/*
+!/**/.gitkeep

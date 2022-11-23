@@ -35,8 +35,8 @@ try:
         print("Has attachments : {0} ".format(update_lyr_attachments_enabled))
 
         if "Update" in update_lyr_capabilities and update_lyr_attachments_enabled == True:
-            # Attachments location
-            src_dir = "D:\\Upwork\\Taxation Dashboard\\Photos of research\\photo_attach\\photo_attach_id_number\\"
+            # Attachments folder location
+            src_dir = "D:\\xxxx\\xxxx\\Photos of research\\photo_attach\\photo_attach_id_number\\"
             for count, filename in enumerate(os.listdir(src_dir)):
                 # parent_OID = int(filename.split("_")[0])
                 parent_id_number = filename.split("_")[0]

@@ -27,8 +27,9 @@ try:
         print("Active layer : {0} ".format(lyr_for_update.properties.name))
         query_data = lyr_for_update.query(where="1=1", out_fields='OBJECTID,id_number,case_id', returnGeometry='false')
         # print("Query data : {0} ".format(query_data))
-        src_dir = "D:\\Upwork\\Taxation Dashboard\\Photos of research\\photo_attach\\photo_attach\\"
-        dst_dir = "D:\\Upwork\\Taxation Dashboard\\Photos of research\\photo_attach\\photo_attach_id_number\\"
+        # put appropriate folder locations
+        src_dir = "D:\\xxxx\\xxxx\\Photos of research\\photo_attach\\photo_attach\\"
+        dst_dir = "D:\\xxxx\\xxxx\\Photos of research\\photo_attach\\photo_attach_id_number\\"
 
         available_fts = query_data.features
         # print("Available features: {0} ".format(available_fts))
